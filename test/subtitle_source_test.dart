@@ -531,6 +531,14 @@ Left --> right
         TargetPlatform.macOS,
         Icons.subtitles,
       ),
+      'Cupertino': (
+        const CupertinoControls(
+          backgroundColor: Colors.black,
+          iconColor: Colors.white,
+        ),
+        TargetPlatform.iOS,
+        Icons.subtitles,
+      ),
     };
 
     setUp(FakeVideoPlayerPlatform.install);

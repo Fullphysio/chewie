@@ -484,6 +484,7 @@ void main() {
 
     final optionsIcons = {
       TargetPlatform.android: Icons.more_vert,
+      TargetPlatform.iOS: Icons.more_vert,
       TargetPlatform.macOS: Icons.settings,
     };
 
